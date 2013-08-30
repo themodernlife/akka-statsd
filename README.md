@@ -29,4 +29,4 @@ class ExampleActor extends Actor with StatsD {
 }
 ```
 
-The `counter` and `timing` methods also support a sampling percentage if you don't want to send every event.  See [StatsD.scala](src/main/scala/net/themodernlife/statsd/StatsD.scala) for more details.
+The `counter` and `timing` methods also support a sampling percentage if you don't want to send every event.  See [StatsD.scala](src/main/scala/net/themodernlife/statsd/StatsDSupport.scala) for more details.
